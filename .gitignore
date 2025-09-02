@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# pnpm lockfile
+pnpm-lock.yaml
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS system files
+.DS_Store
+
+# Env files
+#.env
+#.env.local
