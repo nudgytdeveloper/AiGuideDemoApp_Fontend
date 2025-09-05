@@ -101,6 +101,7 @@ export default function SessionsListTab() {
                 <strong>chatData:</strong> {String(s.chatData)}
               </div>
             )}
+            {s.id ? <div className="row"><div><img src={`https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=${s.id}`}></img></div></div> : null}
           </div>
         ))}
       </div>
